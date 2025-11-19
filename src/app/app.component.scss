@@ -1,0 +1,58 @@
+.led {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  display: inline-block;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  border: 2px solid #555;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.radio-group button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.radio-group button:not(:disabled) {
+  cursor: pointer;
+}
+
+.radio-group button.active {
+  background: #00aaff;
+  border-color: #0077cc;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.lista {
+  border-left: 2px solid #444;
+  padding-left: 20px;
+}
+
+.lista h3 {
+  margin-bottom: 10px;
+}
+
+.lista li {
+  font-size: 18px;
+  margin-bottom: 4px;
+}

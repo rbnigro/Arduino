@@ -74,7 +74,6 @@ export class AppComponent {
 
   setModo(modo: string) {
     this.form.patchValue({ modo });
-    // this.registrarSeNecessario();
     this.converterTemperatura();
   }
 
@@ -89,7 +88,7 @@ export class AppComponent {
     }
   }
 
-    private converterTemperatura() {
+  private converterTemperatura() {
     const modo = this.form.value.modo;
 
     if (modo === 'kelvin') {

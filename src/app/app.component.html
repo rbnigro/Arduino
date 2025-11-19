@@ -15,7 +15,7 @@
       <button
         *ngFor="let modo of modos"
         type="button"
-        [disabled]="form.get('modo')?.disabled"
+        [disabled]="form.get('modo')?.disabled || form.value.modo === modo"
         [class.active]="form.value.modo === modo"
         (click)="setModo(modo)">
         {{ modo | titlecase }}

@@ -1,6 +1,7 @@
 # 🚀 Deploy Angular no GitHub Pages – Guia Premium
 
-Este repositório contém meu projeto Angular publicado no **GitHub Pages**, utilizando uma estrutura limpa, otimizada e configurada manualmente para garantir total controle sobre o deploy.
+Este repositório contém meu projeto Angular publicado no **GitHub Pages**.
+Utilizando uma estrutura limpa, otimizada e configurada manualmente para garantir total controle sobre o deploy.
 
 Abaixo está um guia completo e profissional descrevendo o processo utilizado — servindo como documentação, estudo e portfólio.
 

@@ -112,6 +112,11 @@ O `baseHref` foi configurado corretamente, eliminando o problema.
 
 Comportamento normal quando não há alterações.
 
+deploy
+ng build --configuration production --base-href="/Arduino/"
+npx ngh --dir=dist/arduino/browser
+ng deploy --base-href="/Arduino/"
+
 ---
 
 # ✨ Conclusão
